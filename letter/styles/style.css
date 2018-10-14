@@ -1,0 +1,15 @@
+.underline {
+    text-decoration: underline;
+}
+
+.strong {
+    font-weight: 700;
+}
+
+.dashed-list {
+    list-style: square inside url('data:image/gif;base64,R0lGODlhBQAKAIABAAAAAP///yH5BAEAAAEALAAAAAAFAAoAAAIIjI+ZwKwPUQEAOw==');
+}
+
+.abc-list {
+    list-style: lower-alpha;
+}
