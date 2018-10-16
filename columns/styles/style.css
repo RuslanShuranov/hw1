@@ -1,4 +1,4 @@
-.col-wrapper {
+.col-wrapper-with-flex {
     display: flex;
 }
 
@@ -13,7 +13,6 @@
 
 .second, .third {
     flex-grow: 50;
-    justify-content: space-between;
 }
 
 .second {
@@ -21,5 +20,23 @@
 }
 
 .third {
+    background-color: gray;
+}
+
+.col-wrapper-without-flex {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+}
+
+.one {
+    background-color: yellow;
+}
+
+.two {
+    background-color: red;
+}
+
+.three {
     background-color: gray;
 }
