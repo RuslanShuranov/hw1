@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,900');
+
+
+
+.main-screen {
+  background: url(img/img-bg.png) no-repeat center/cover;
+  width: 100%;
+  min-height: 800px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.main-nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-nav-list-item {
+  margin-right: 25px;
+}
+
+.main-nav-list li:last-of-type {
+  margin-right: 0;
+}
+
+.main-nav-list-item a {
+  padding: 25px 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 4px solid transparent;
+}
+
+.main-nav-list-item a:hover,
+.main-nav-list-item a:active {
+  border-bottom-color: #ff4081;
+}
+
+.main-nav-list-item a:after {
+  content: url("img/arrow-down.png");
+  margin-left: 5px;
+  width: 10px;
+  height: 7px;
+}
+
+.transparent-text {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  opacity: 0.7;
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 22px;
+  font-weight: 400;
+  font-variant: small-caps;
+}
+
+.main-screen-header {
+  margin: 0 auto;
+  max-width: 810px;
+  color: #ffffff;
+  font-family: "Montserrat", serif;
+  font-size: 42px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.main-screen-btn {
+  display: inline-block;
+  margin-top: 100px;
+  padding: 17px 28px;
+  color: #ffffff;
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  line-height: 12px;
+  font-weight: 400;
+  font-variant: small-caps;
+  box-shadow: 0 17px 24px rgba(48, 63, 159, 0.2);
+  border-radius: 25px;
+  background-color: #303f9f;
+  cursor: pointer;
+}
+
+.main-screen-btn:hover,
+.main-screen-btn:active {
+  color: #303f9f;
+  background-color: #1e90ff;
+}
