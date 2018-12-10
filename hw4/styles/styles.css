@@ -235,7 +235,7 @@ button:hover {
   transform: translateX(-50%);
 }
 
-.header-author-name a{
+.header-author-name a {
   color: rgb(255, 255, 255);
   font-family: Montserrat, serif;
   font-size: 14px;
@@ -244,7 +244,7 @@ button:hover {
   text-transform: none;
 }
 
-.header-author-post-date p{
+.header-author-post-date p {
   display: inline-block;
   color: rgba(255, 255, 255, .54);
   font-family: Montserrat, serif;
@@ -294,6 +294,54 @@ button:hover {
 
 .head-likes-author a span {
   margin-right: 7px;
+}
+
+.articles-sort {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-shadow: 0 1px 0 rgb(221, 221, 221);
+  background-color: rgb(255, 255, 255);
+}
+
+.articles-sort-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.articles-sort p {
+  float: left;
+  margin-right: 21px;
+  color: rgba(0, 0, 0, .87);
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.sort-button {
+  margin-right: 15px;
+  display: inline-block;
+  padding: 7px 15px;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  background-color: rgb(245, 245, 245);
+  color: rgba(0, 0, 0, .87);
+  font-family: Montserrat, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.sort-button:last-of-type {
+  margin-right: 0;
+}
+
+.sort-button:hover,
+.sort-button:active {
+  background-color: transparent;
+  border: 1px solid rgb(63, 81, 181);
 }
 
 .blog {
@@ -347,6 +395,42 @@ button:hover {
   color: #fff;
   font-family: "Material Icons", serif;
   font-size: 18px;
+}
+
+.vertical-articles {
+  margin-top: 20px;
+}
+
+.horizontal-post {
+  margin-bottom: 20px;
+  display: flex;
+  position: relative;
+}
+
+.post-photo {
+  position: relative;
+}
+
+.horizontal-article-text-wrapper {
+  padding: 10px 20px;
+}
+
+.horizontal-article-footer {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-post-more-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.horizontal-post .more-icon {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
 }
 
 .article-text-wrapper {
