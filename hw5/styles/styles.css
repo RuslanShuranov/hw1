@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+
+body {
+  font-size: 16px;
+  font-family: Raleway, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+
+.header {
+  padding-top: 30px;
+  background: url("../img/main-bg.jpg") no-repeat center/cover;
+  min-height: 100vh;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-list-item {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.menu-list-item a {
+  color: #f9fafe;
+  font-family: Raleway, serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding: 14px 39px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.menu-list-item a:hover {
+  border: 1px solid #f9fafe;
+}
+
+.sign-up a {
+  border: 1px solid #f9fafe;
+}
+
+.header-text-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  margin-bottom: 25px;
+  text-align: center;
+  min-width: 900px;
+  color: #f9fafe;
+  font-family: Raleway, serif;
+  font-size: 72px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-text-wrapper p {
+  margin-bottom: 90px;
+  text-align: center;
+  color: #f9fafe;
+  font-family: "Open Sans", serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.search {
+  max-width: 770px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+  color: #717171;
+  font: 400 14px/22px Raleway, sans-serif;
+  text-transform: uppercase;
+}
+
+.search input {
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  border-radius: 5px;
+  color: #717171;
+  font-family: Raleway, serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+.search button {
+  cursor: pointer;
+  padding: 15px 30px;
+  position: absolute;
+  color: #fff;
+  font-family: Raleway, serif;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #e7434e;
+  border-radius: 0 5px 5px 0;
+  text-transform: uppercase;
+  top: 0;
+  right: 0;
+}
+
+.search .fa-ship {
+  margin-right: 7px;
+}
