@@ -206,7 +206,7 @@ button:focus {
   font-weight: 400;
 }
 
-.post-gallery-container {
+.container-1200 {
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -315,4 +315,67 @@ button:focus {
 .rent-your-boat-button a {
   background-color: rgb(231, 67, 78);
   color: rgb(255, 255, 255);
+}
+
+.featured-boats {
+  padding: 90px 0 80px;
+}
+
+.boats-gallery {
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.boat-wrapper {
+  position: relative;
+  margin: 0 13px 30px;
+}
+
+.boat-price {
+  position: absolute;
+  top: 30px;
+  left: 28px;
+  padding: 12px 10px;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: rgb(231, 67, 78);
+}
+
+.boat-info {
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+}
+
+.boat-name {
+  margin-bottom: 13px;
+  color: rgb(255, 255, 255);
+  font-family: Raleway, serif;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.boat-location {
+  margin-right: 30px;
+}
+
+.boat-location .fa-map-marker-alt {
+  margin-right: 8px;
+}
+
+.boat-berths .fa-user-friends {
+  margin-right: 10px;
+}
+
+.boat-location,
+.boat-berths {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans", serif;
+  font-size: 16px;
+  font-weight: 400;
 }
