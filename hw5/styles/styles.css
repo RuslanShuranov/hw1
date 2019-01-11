@@ -87,6 +87,11 @@ a {
   border: 1px solid #f9fafe;
 }
 
+.sign-up a:hover {
+  background-color: #f9fafe;
+  color: #e7434e;
+}
+
 .header-text-wrapper {
   position: absolute;
   top: 50%;
